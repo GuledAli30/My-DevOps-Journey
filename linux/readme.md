@@ -17,7 +17,7 @@ Welcome to my OverTheWire Bandit journey! This repository showcases my progress 
   ```bash
   cat readme
 
-## Level 0
+## Level 1
 - **Objective:** Retrieve the password for the next level.
 - **Command Used:** 
   ```bash
