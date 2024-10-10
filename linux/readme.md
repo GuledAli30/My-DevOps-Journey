@@ -17,12 +17,11 @@ Welcome to my OverTheWire Bandit journey! This repository showcases my progress 
   ```bash
   cat readme
 
-## Level 1
-
-Objective: Find the password for the next level.
-Command Used:
-bash
-Copy code
-cat -e ./-file01
+## Level 0
+- **Objective:** Retrieve the password for the next level.
+- **Command Used:** 
+  ```bash
+  cat -e ./-file01
 Explanation: The -e option with cat shows the end of each line with a $ symbol, helping to visualize the output clearly.
+
 
