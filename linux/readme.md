@@ -22,7 +22,7 @@ Welcome to my OverTheWire Bandit journey! This repository showcases my progress 
 - **Command Used:** 
   ```bash
   cat -e ./-file01
-- **Explanation:** The -e option with cat shows the end of each line with a $ symbol, helping to visualize the output clearly.
+- **Explanation:** The -e option with cat shows the end of each line with a $ symbol, helping to visualise the output clearly.
 
 ## Level 2
 - **Objective:** Retrieve the password for the next level.
@@ -50,4 +50,4 @@ Welcome to my OverTheWire Bandit journey! This repository showcases my progress 
 - **Command Used:** 
   ```bash
   find maybehere* -type f -size 1033c
-- **Explanation:** This command searches for files within the maybehere* directories that are exactly 1033 bytes in size, which helped me locate the password file.  After realizing that .file2 was a hidden file, I used ls -a to list all files, including hidden ones, in the directory.
+- **Explanation:** This command searches for files within the maybehere* directories that are exactly 1033 bytes in size, which helped me locate the password file.  After realising that .file2 was a hidden file, I used ls -a to list all files, including hidden ones, in the directory.
