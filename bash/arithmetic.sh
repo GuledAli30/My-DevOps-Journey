@@ -4,6 +4,7 @@
 num1=15
 num2=3
 
+# Performing the Arithmetic calculations 
 addition=$(echo "$num1 + $num2" | bc)
 subtraction=$(echo "$num1 - $num2" | bc)
 multiplication=$(echo "$num1 * $num2" | bc)
@@ -14,7 +15,7 @@ else
 fi
 
 
-# Printing results for the first task 
+# Printing results for the first challenge
 echo -e "\nResults of operations:"
 echo "Addition: $num1 + $num2 = $addition"
 echo "Subtraction: $num1 - $num2 = $subtraction"
