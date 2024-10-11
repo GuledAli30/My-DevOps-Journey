@@ -6,4 +6,4 @@ The script starts with a shebang #!/bin/bash to specify that the script should b
   The division operation checks whether num2 is zero using an if statement. If num2 is not zero, the division is performed by passing "scale=2; $num1 / $num2" to bc, which ensures the result is rounded to two decimal places. If num2 is zero, the division is avoided and a custom message "Undefined (division by zero)" is assigned to the division variable.
    Finally, the results of the four operations are displayed using echo, with the -e flag allowing special characters like \n to add new lines for better formatting.
 
-   # File-Operations.sh
+   # File-Operations.sh - Challenge 2
