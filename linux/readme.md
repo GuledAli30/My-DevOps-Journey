@@ -22,6 +22,6 @@ Welcome to my OverTheWire Bandit journey! This repository showcases my progress 
 - **Command Used:** 
   ```bash
   cat -e ./-file01
-Explanation: The -e option with cat shows the end of each line with a $ symbol, helping to visualize the output clearly.
+- **Explanation:** The -e option with cat shows the end of each line with a $ symbol, helping to visualize the output clearly.
 
 
