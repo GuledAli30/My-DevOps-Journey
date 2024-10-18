@@ -16,4 +16,4 @@ RUN pip install flask redis
 EXPOSE 5002
 
 # Run the application
-CMD ["python", "counter.py"]
+CMD ["python", "app.py"]
