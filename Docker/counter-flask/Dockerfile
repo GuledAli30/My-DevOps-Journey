@@ -7,13 +7,13 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy the current directory contents into the container
-COPY . /app
+COPY . .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install flask redis 
 
-# Expose port 5000 for Flask
+# Expose port 5002 for Flask
 EXPOSE 5002
 
 # Run the application
-CMD ["python", "app.py"]
+CMD ["python", "counter.py"]
