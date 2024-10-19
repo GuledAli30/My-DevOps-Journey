@@ -2,13 +2,13 @@ from flask import Flask
 import os
 import redis
 
-app = Flask(__name__)  # Make sure to instantiate the Flask app here
+app = Flask(__name__)  
 
-# Connect to Redis using the service name 'redis'
-redis_host = os.getenv('REDIS_HOST', 'redis')  # Default to 'redis' if the env variable is not set
+
+redis_host = os.getenv('REDIS_HOST', 'redis')  
 redis_client = redis.StrictRedis(host=redis_host, port=6379, db=0)
 
-# Optional: Test the connection
+
 try:
     redis_client.ping()
     print("Connected to Redis")
