@@ -1,6 +1,11 @@
 # My DevOps Journey
 
-![DevOps Tools](https://example.com/path-to-image-of-tools.png)
+![DevOps Tools]<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux" width="100"/>
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg" alt="Bash" width="100"/>
+<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="Docker" width="100"/>
+<img src="https://d1.awsstatic.com/logos/aws-logo-lockups/poweredbyaws/PB_AWS_logo_RGB_stacked_REV_SQ.5d3fdbbda5bb3fa1999f11c8426c754ec8d49f20.png" alt="AWS" width="100"/>
+
 
 Welcome to **My DevOps Journey** repository! This is where I document my progress, challenges, and learnings as I work through various DevOps concepts, tools, and projects. Below is a breakdown of what's inside the repository, what's been completed, and what's in progress.
 
@@ -53,12 +58,6 @@ Welcome to **My DevOps Journey** repository! This is where I document my progres
 ---
 
 ## 🔧 Tools & Technologies
-
-![Linux](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)  
-![Git](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)  
-![Bash](https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg)  
-![Docker](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png)  
-![AWS](https://d1.awsstatic.com/logos/aws-logo-lockups/poweredbyaws/PB_AWS_logo_RGB_stacked_REV_SQ.5d3fdbbda5bb3fa1999f11c8426c754ec8d49f20.png)
 
 - **Linux**
 - **Git**
