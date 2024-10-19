@@ -1,13 +1,21 @@
-version: '3.8-slim'
+version: '3.8'
 
-services: 
+services:
   web:
-  build:
-  ports: 
-  - "5002:5002"
-depends_on:
- - redis 
-redis: 
- image:"redis:latest"
-ports:
-  - "6379:6379"
+    build: .
+    ports:
+      - "5002:5002"
+    depends_on:
+      - redis
+    networks:
+      - my_network
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    networks:
+      - my_network
+
+networks:
+  my_network:  # Declare the network
