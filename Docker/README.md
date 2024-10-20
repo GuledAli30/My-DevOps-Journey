@@ -44,6 +44,7 @@ services:
     deploy:
       replicas: 3
 
+
 ## 4. Final Docker Compose Configuration
 
 The final version of the `docker-compose.yml` file is as follows:
